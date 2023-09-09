@@ -1,0 +1,154 @@
+    .body {
+    max-width: 100%;
+    }
+    
+    header {
+    color: gold;
+    text-align: center;
+    border-style: solid;
+    border-width: thick;
+    border-color: #00CED1;
+    border-radius: 15%;
+    font-family: 'Dancing Script', cursive;
+    background-image: url(standaard_van_ur.jpg);
+    background-size: 110%;
+    background-repeat: no repeat;
+    background-position: center;
+    @media only screen and (max-width: 576px) {
+    width: 300px; 
+    height: 180px;
+    margin-left: 20%;
+    }
+    @media only screen and (min-width: 577px) {
+    width: 400px; 
+    height: 240px;
+    margin-left: 39%;
+    } 
+    }
+    
+    h1{
+    text-align: center;
+    }
+
+    h3{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    }
+
+    h5{
+    text-align: center;
+    padding-top: 1%;
+    margin-left: 1%;
+    }
+    
+    p{
+    margin-right: 2%;
+    padding-right: 1%;
+    font-family: 'Arial Helvetica', sans-serif;
+    @media only screen and (max-width: 576px){
+    max-width: 100%;    
+    }
+    @media only screen and (min-width: 577px){
+    width: 100%;
+    }
+    }
+    
+    p1{
+    max-width: 90%;
+    margin-right: 50%;
+    margin-left: auto;
+    font-family: 'Arial Helvetica', sans-serif;    
+    }
+    
+    text{
+    text-align: center;
+    display: inline-block;
+    margin-left: 1%;
+    }
+    
+    #accordion{
+    @media only screen and (max-width: 576px){
+    width: 100%;
+    margin-right: 1%;
+    }
+    @media only screen and (min-width: 577px){
+    width: 50%;
+    margin-left: 23%;
+    max-height: 210em;
+    }
+    }
+
+    footer {
+    color: blanchedalmond;
+    text-align: center;
+    border-style: solid;
+    border-width: thick;
+    border-color: #00CED1;
+    border-radius: 15%;
+    background-image: url(meskalamdug.jpg);
+    background-size: 98%;
+    background-repeat: no repeat;
+    background-position: center;
+    @media only screen and (max-width: 576px) {
+    width: 8em; 
+    height: 6em;
+    margin-left: 37%;
+    }
+    @media only screen and (min-width: 577px) {
+    width: 15em; 
+    height: 12em;
+    margin-left: 42%;
+    } 
+    } 
+
+    iframe{
+    @media only screen and (max-width: 576px) {
+    width: 100%; 
+    height: 8%; 
+    margin-left: 1em; 
+    margin-top: 10%; 
+    border: "0";
+    }
+    @media only screen and (min-width: 577px) {
+    width: 100%; 
+    height: 14%;
+    margin-top: 10%;
+    border: "0";
+    }
+    }
+
+    .top{
+    @media only screen and (max-width: 576px) { 
+    margin-left: 38%; 
+    }
+    @media only screen and (min-width: 577px) {
+    margin-left: 46%;
+    }
+    }
+
+    .plaatje{
+    @media only screen and (max-width: 576px) {
+    width: 100%;  
+    height: auto; 
+    margin-left: 4%;
+    }
+    }
+
+    .afbeelding{
+    @media only screen and (max-width: 576px){
+    height: 4em;
+    width: auto;
+    padding-left: 1em;
+    margin-top: 5%;
+    }
+    @media only screen and (min-width: 577px) {
+    height: 10em;
+    width:auto;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-top: 3%;
+    }
+    }
+
+   
+    
